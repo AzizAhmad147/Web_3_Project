@@ -1,0 +1,80 @@
+body,html{
+    font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-color:white;
+}
+.navbar {
+    font-family:sans-serif ;
+    font-size: 25px;
+}
+
+.navbar-default {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0 ;
+    border:none ;
+    height: auto;
+    padding-top:10px ;
+    padding-bottom:10px;
+}
+
+
+.navbar-header a:hover{
+    cursor: pointer;
+
+}
+
+/*change location of logo  */
+.navbar-brand{
+    line-height: 12px;
+    margin-top: -8px;
+}
+
+/* Menu items */
+.navbar-nav li a{
+    font-family: sans-serif;
+    font-weight: bold ;
+    color:white;
+    letter-spacing: 1px;
+
+}
+
+
+/* Dropdown menu */
+.dropdown-menu{
+
+    min-width: 130px;
+    font-size: 20px ;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+.dropdown:hover {
+    cursor: pointer ;
+}
+.dropdown a:hover {
+    background-color:black;
+}
+
+
+
+
+
+/* slideshow */
+#slideshow{
+
+    background-image: url("../images/food1.jpg");/* The image used */
+    height: 100vh;/* Full height */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner{
+    padding-bottom:10px;
+    padding-top:10px;
+    padding: 5px;
+}
+
+#footer{
+
+    background-color: black;
+}
